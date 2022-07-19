@@ -5,8 +5,8 @@
 
 
 
-# python_base
-Base Python Project Scaffold
+# FastApi base
+Base FastApi Python Project Scaffold
 
 ## Build out basic scaffold
 * Makefile
