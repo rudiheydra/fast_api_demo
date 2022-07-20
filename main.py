@@ -8,7 +8,12 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "Hello Worldu"}
+    return {"message": "Hello World!"}
+
+
+@app.get("/posts")
+def get_posts():
+    return {"data": "This is yout post"}
 
 
 if __name__ == "__main__":
